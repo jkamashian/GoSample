@@ -1,3 +1,9 @@
+# project run requirements
+Docker
+Docker compose
+
+
+
 You will be building a very simple webservice in go that will store “foo” records in memory. Please feel free to use any public resources that you can find. 
 
 

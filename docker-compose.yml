@@ -1,0 +1,19 @@
+version: "3.3"
+   
+services:
+  webservice:
+    build: .
+    ports:
+     - "8080:8080"
+    environment:
+      - REDIS_ADDRESS=redis:6379
+      - REDIS_PASSWORD=BANANA
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning --requirepass BANANA
