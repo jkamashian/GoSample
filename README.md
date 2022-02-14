@@ -1,12 +1,14 @@
-# FOO APP
+# The Foo Go Webserver
 Foo App is a simple Go webserver given to me as go testing challenge.
 It is a small webserver that allows us to run CRUD(or CRD in our case) operations on a small data set.
 
 ## Project Requirements
 In order to run this project you will need the following already installed 
+ 
  - [Docker](https://www.docker.com/)
  - [Docker Compose](https://docs.docker.com/compose/)
  - [make](https://www.gnu.org/software/make/) 
+
 Please follow the documentation for installation for your operating system.
 
 ## Building, Running & Clean up
