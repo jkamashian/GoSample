@@ -1,5 +1,4 @@
-FROM golang:1.17-alpine 
-# ENV GO111MODULE=on
+FROM golang:1.17-alpine as FooGo
 
 # builds the Go executable
 RUN mkdir /code
