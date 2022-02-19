@@ -1,6 +1,10 @@
 # The Foo Go Webserver
 Foo App is a simple Go webserver given to me as go testing challenge.
 It is a small webserver that allows us to run CRUD(or CRD in our case) operations on a small data set.
+You can find a demo video here:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bAmNHKfEfsw/0.jpg)](https://www.youtube.com/watch?v=bAmNHKfEfsw)
+
 
 ## Project Requirements
 In order to run this project you will need the following already installed 
