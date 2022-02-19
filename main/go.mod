@@ -3,6 +3,7 @@ module github.com/jkamashian/GoSample/main
 go 1.13
 
 require (
+	github.com/alicebob/miniredis/v2 v2.18.0 // indirect
 	github.com/blizzy78/varnamelen v0.6.0 // indirect
 	github.com/breml/bidichk v0.2.2 // indirect
 	github.com/breml/errchkjson v0.2.3 // indirect

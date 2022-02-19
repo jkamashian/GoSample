@@ -11,9 +11,7 @@ import (
 func main() {
 	// simple webservice in go that will store “foo” records in memory(redis)
 	Redis = redis.NewClient(&redis.Options{
-		Addr:     os.Getenv("REDIS_ADDRESS"),
-		Password: os.Getenv("REDIS_PASSWORD"),
-		DB:       0,
+		Addr: os.Getenv("REDIS_ADDRESS"),
 	})
 	_, err := Redis.Ping().Result()
 	if err != nil {
